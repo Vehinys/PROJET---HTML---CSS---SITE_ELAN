@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+body{
+    height: 100vh;
+}
+
+/*Header*/
+
+.header{
+    background-color: rgb(255, 165, 0);
+    margin: auto;
+    color: white;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items : center;
+    padding-left: 10px;
+    font-size: larger;
+    width: 375px;
+}
+
+nav.bar{
+    float:right;
+    text-decoration: none;
+    place-self: center;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+strong{
+    padding-left: 1px;
+    text-shadow: 1px 1px 2px pink;
+
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 2px pink;
+}
+.header figure{
+    display: flex;
+}
+
+.imglogoelan{
+    width: 90px;
+    padding: 5px;
+    align-self: center;
+}
+img.imgpe{
+    width: 375px;
+    object-fit: cover;
+    filter: grayscale(1);
+    vertical-align: bottom;
+}
+
+.elan1{
+    position: relative;
+    width: auto;
+}
+.elan2{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    top: 70px;
+    font-size: 15px;
+}
+.elan2 h1, .elan2 h2{
+    text-shadow: 1px 1px 2px pink;
+}
+
+/*Main*/
+
+main{
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table{
+    border: 1px solid rgb(128, 128, 128);
+    margin : auto;
+    width: 310px;
+}
+
+thead tr th{
+    background-color: rgb(81, 81, 81);
+    color: white;
+
+}
+
+th,td{
+    padding: 3px;
+}
+
+tbody tr, td, th{
+    border: 1px solid rgb(128, 128, 128);
+
+}
+
+.formation{
+    width: 350px;
+    height: 220px;
+    background-color: white;
+    border: 2px dashed rgb(255, 165, 0);
+    flex-direction: column;
+    margin: auto;
+}
+
+.formation h2{
+    padding: 15px;
+}
+
+.equipe{
+    width: 350px;
+    height: 2420px;
+    background-color: white;
+    border: 2px dashed rgb(255, 165, 0);
+    margin-top: 10px !important;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.equipe figure{
+    position: relative;
+    padding-bottom: 10px
+}
+.texteq figcaption{
+    position: absolute;
+    border: 1px solid rgb(255, 165, 0);
+    background-color: rgb(255, 165, 0, 0.7);
+    width: 180px;
+    color: white;
+    top: 158px;
+    right: 83px;
+}
+
+.equipe h2{
+    padding: 15px;
+}
+
+.contact{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border: 2px dashed rgb(255, 165, 0);
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px !important;;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.contact h2{
+    padding-top: 15px;
+}
+
+.imgp{
+    box-shadow: rgb(255, 165, 0) 4px 4px 4px -2px, rgb(255, 165, 0) 4px 4px 4px -2px;
+}
+
+form{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+.submit{
+    background-color: rgb(255, 165, 0);
+    width: 135px;
+    height: 40px;
+    color: white;
+}
+
+label{
+    display: inline-flex;
+    padding-top: 10px;
+}
+
+input#name, input#subject, textarea#msg{
+    border-color: rgb(255, 165, 0);
+    border-radius: 5px;
+    height: 35px;
+}
+
+textarea#msg{
+    height: 120px;
+}
+
+button.submit{
+    margin-top: 10px;
+    border-color: rgb(255, 165, 0);
+    border-radius: 5px;
+}
+
+/*Footer*/
+
+footer{
+    height: 100px;
+    background-color: rgb(81, 81, 81);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px pink;
+}
+
+.tel{
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 2px pink;
+}

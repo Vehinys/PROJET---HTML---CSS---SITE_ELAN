@@ -1,0 +1,19 @@
+@media screen and ( min-width: 1025px ) {
+
+    .header, img.imgpe{
+        width: 100%;
+    }
+
+    section.formation, section.equipe, section.contact, table{
+        width: 90%;
+    }
+    .submit{
+        width: 50%;
+    }
+
+    figcaption.elan2{
+        top: 40%;
+        left: 10%;
+        font-size: 20px;
+    }
+}

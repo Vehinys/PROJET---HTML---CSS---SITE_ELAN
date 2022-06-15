@@ -1,0 +1,56 @@
+@media screen and ( min-width: 768px ) and (max-width: 1024px) {
+    
+        a{
+            display: contents;
+        }
+
+        nav.bar {
+            padding-bottom: 0;
+            padding-left: 0;
+        }   
+
+        .bar{
+            padding-left: 10xp;
+        }
+
+        .logo{
+            width: 40%;
+        }
+
+        .logofigure{
+            width: 100%;
+        }
+
+        section.formation, section.equipe, section.contact, table{
+            width: 90%;
+        }
+         
+        section.formation h2, section.equipe h2, section.contact h2{
+            display: flex;
+        }
+
+        .equipe{
+            height: auto;
+        }
+
+        .header, img.imgpe{
+            width: 100%;
+        }
+        
+        figcaption.elan2{
+            top: 40%;
+            left: 10%;
+            font-size: 20px;
+        }
+        .texteq figure{
+            display: inline-block;
+            margin: 15px;
+        }
+        .texteq figcaption {
+            right: 0;
+        }
+
+        .submit{
+            width: 50%;
+        }
+}
